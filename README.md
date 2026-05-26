@@ -21,12 +21,33 @@ La aplicación maneja dos entidades persistidas localmente usando SQLite y consu
 
 ## Capturas de pantalla de la aplicación en ejecución
 
-*(Reemplaza las imágenes a continuación con tus propias capturas de pantalla luego de correr la app en el emulador de Android/Windows)*
+![alt text](image.png)
 
-![Aplicación Ejecutándose - Maestro (Categorías)](./docs/images/screenshot_master.png)
+![Aplicación Ejecutándose - Maestro (Categorías)]
+![alt text](image-1.png)
 
-![Aplicación Ejecutándose - Detalle (Productos)](./docs/images/screenshot_detail.png)
+![alt text](image-6.png)
 
+![alt text](image-7.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+![alt text](image-10.png)
+
+![Aplicación Ejecutándose - Detalle (Productos)]
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
 ## Estructura del Proyecto
 
 - `Models/Categoria.cs` y `Models/Producto.cs`: Representación de las tablas.
