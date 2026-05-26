@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="UTN.appMovil.MestroDetalle.Views.CategoriasPage"
+             Title="Gestión de Categorías">
+    <ScrollView>
+        <VerticalStackLayout Padding="30,30" Spacing="20">
+            
+            <Label Text="Seleccionar Categoría Existente" FontSize="16" FontAttributes="Bold" />
+            <Picker x:Name="pickerCategorias" Title="Elige una categoría..." SelectedIndexChanged="OnCategoriaSelected" ItemDisplayBinding="{Binding Nombre}" />
+
+            <BoxView HeightRequest="1" Color="Gray" Margin="0, 10" />
+
+            <Label Text="Detalles de Categoría" FontSize="16" FontAttributes="Bold" />
+            <Entry x:Name="txtCatNombre" Placeholder="Nombre de Categoría" />
+            <Entry x:Name="txtCatDescripcion" Placeholder="Descripción" />
+            
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center" Margin="0,20,0,0">
+                <Button Text="Crear" Clicked="BtnCatCrear_Clicked" BackgroundColor="Green" TextColor="White" />
+                <Button Text="Actualizar" Clicked="BtnCatActualizar_Clicked" BackgroundColor="Orange" TextColor="White" />
+                <Button Text="Borrar" Clicked="BtnCatBorrar_Clicked" BackgroundColor="Red" TextColor="White" />
+            </HorizontalStackLayout>
+            <Button Text="Limpiar Selección" Clicked="BtnLimpiar_Clicked" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
